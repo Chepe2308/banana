@@ -6,6 +6,33 @@
     <title>Banana Bliss - Harina de Plátano Verde</title>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
     <style>
+/* Asegúrate de que las imágenes sean responsivas */
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Media query para dispositivos pequeños (teléfonos) */
+@media (max-width: 600px) {
+    img {
+        max-width: 90%; /* Ajusta el ancho de la imagen al 90% del contenedor */
+    }
+}
+
+/* Media query para tablets y dispositivos de tamaño intermedio */
+@media (max-width: 768px) and (min-width: 601px) {
+    img {
+        max-width: 80%; /* Ajusta el ancho al 80% para tablets */
+    }
+}
+
+/* Media query para dispositivos grandes (PC) */
+@media (min-width: 769px) {
+    img {
+        max-width: 70%; /* Ajusta el ancho al 70% para pantallas grandes */
+    }
+}
+
 
 body.dark-mode {
             background: linear-gradient(45deg, #2e2e2e, #121212);
